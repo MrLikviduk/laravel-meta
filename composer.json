@@ -1,0 +1,27 @@
+{
+    "name": "mrlikviduk/meta",
+    "description": "This is my package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaly Kalinkin",
+            "email": "v@086.kz"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kalinkin\\Meta\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kalinkin\\Meta\\MetaServiceProvider"
+            ],
+            "aliases": {
+                "Meta": "Kalinkin\\Meta\\Meta"
+            }
+        }
+    }
+}
